@@ -1,0 +1,64 @@
+Basic Types of DataStructures: 
+1. Abstract Data Structure:
+    - Linked Lists 
+    - Graph 
+    - tree
+    - Stack
+    - Queue
+
+Anything that stores data is called Data Structure. 
+2. Primitive Data Structure
+    - int 
+    - Float 
+    - bool
+    - char
+
+                                                                    Data Structures
+                                                                            |
+                                                                            |
+                                            __________________________________________________________________
+                                            |                                                                |
+                                            |                                                                |
+                                Built in Data Structures                                       User Defined Data Structures
+                                            |                                                                |
+                                            |                                                                |
+                        ______________________________________                              __________________________________
+                        |           |           |            |                              |                |               |  
+                        |           |           |            |                              |                |               |
+                       int        Float     Character      Pointer                        Arrays           Lists           Files
+                                                                                                             |
+                                                                                                             |
+                                                                                                __________________________
+                                                                                                |                        |
+                                                                                                |                        |
+                                                                                          Linear Lists           Non-Linear Lists
+                                                                                                |                        |
+                                                                                                |                        |
+                                                                                        ________________          ________________
+                                                                                        |              |          |              |
+                                                                                        |              |          |              |
+                                                                                      Stacks        Queues      Trees         Graphs
+
+Characteristics of Data Structures:
+1. Linear: Arranged in a linear sequence i.e. array
+2. Non-Linear: Data items are not in a sequence i.e. Tree, Graph
+3. Homogeneous: All elements are of same types i.e. Array 
+4. Non-Homogeneous: The elements may or may not be a same type i.e. Structures
+5. Static: whose sizes and structures associated memory locations are fixed, at compile time. i.e. Array
+6. Dynamic: hich expands or shrinks depending upon the program need and its execution. Also, their associated memory locations changes. i.e. LinkedList Created using Pointers
+
+
+Space and Time Complexity: 
+--------------------------
+
+1. Space Complexity: An amount of memory space required by an Algorithm
+    Algorithm generally required space for following components:
+        - Instruction Space: Its the space required to store the executable version of the program. 
+                             This space is fixed, but varies depending upon the number of lines of code in the program.
+        - Data Space: Its the space required to store all the constants and variables(including temporary variables) value.
+        - Environment Space: Its the space required to store the environment information needed to resume the suspended function.
+        
+2. Time Complexity: Time Complexity is a way to represent the amount of time required by the program to run till its completion.
+
+Asymptotic Notations:
+---------------------
